@@ -1,0 +1,12 @@
+class Casino {
+  constructor() {
+    this.tragamonedas = new Tragamonedas();
+    this.ruleta = new Ruleta();
+  }
+  jugarTragamonedas() {
+    this.tragamonedas.jugar();
+  }
+  jugarRuleta() {
+    this.ruleta.jugar();
+  }
+}
