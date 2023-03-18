@@ -1,0 +1,28 @@
+class JuegoDeCasino {
+  constructor() {
+    this.nombre = '';
+  }
+  jugar() {
+    // Método genérico para jugar al juego de casino
+  }
+}
+
+class Tragamonedas extends JuegoDeCasino {
+  constructor() {
+    super();
+    this.nombre = 'Tragamonedas';
+  }
+  jugar() {
+    // Método específico para jugar a las tragamonedas
+  }
+}
+
+class Ruleta extends JuegoDeCasino {
+  constructor() {
+    super();
+    this.nombre = 'Ruleta';
+  }
+  jugar() {
+    // Método específico para jugar a la ruleta
+  }
+}
